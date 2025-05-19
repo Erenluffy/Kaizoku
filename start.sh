@@ -2,7 +2,7 @@
 
 #Set non-interactive for timezone
 export DEBIAN_FRONTEND=noninteractive
-ln -fs /usr/share/zoneinfo/Asia/kathumandu /etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Kathmandu /etc/localtime
 dpkg-reconfigure -f noninteractive tzdata
 
 #install tmate and expect
